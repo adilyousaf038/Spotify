@@ -5,6 +5,7 @@ import { IoIosMusicalNotes } from "react-icons/io";
 import { TbMusicPlus } from "react-icons/tb";
 import { RiFolderMusicFill } from "react-icons/ri";
 import { RiAlbumFill } from "react-icons/ri";
+import { IoHomeSharp } from "react-icons/io5";
 
 
 const Sidebar = () => {
@@ -38,6 +39,11 @@ const Sidebar = () => {
               
                 <RiAlbumFill className='w-5 h-5' />
                 <p className='hidden sm:block font-semibold'>List Album</p>
+            </NavLink>
+          
+            <NavLink to='https://spotify-spotify-clone.onrender.com/' className='flex items-center gap-2.5 text-white hover:bg-gray-700  rounded-s-2xl p-2 pr-[max(8vw,10px)]  text-sm font-medium'>
+                <IoHomeSharp className='w-5 h-5'/>               
+                <p className='hidden sm:block font-semibold'>Home Page</p>
             </NavLink>
 
         </div>
